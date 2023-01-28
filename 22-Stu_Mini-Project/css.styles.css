@@ -1,24 +1,56 @@
-* {
-    
+html {
+background-color: beige;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+  .nav 
+  {
+    display: inline;
+    float: right;
+    position: fixed RIGHT;
+    font-size: 30px;
+    line-height: 41.2px;
+    background-color: #4480b8;
+    margin-top: -10px;
+    width: 24.5%;
+    list-style-type:none;
   }
 
-body {
+ .header { 
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 40px;
+    margin-top: -10px;
+    text-align: center;
+    position: fixed;
+    width: 74.5%;    
+    background-color: rgb(221, 163, 91);
+
+
 }
 
-header,
-footer {
+img {
+    margin-top: 10%;
+    margin-left: 25%;
+
+}
+
+
+
  
-}
 
-figure {
-
-}
+body
+{text-align: center;
 
 
-.highlighted-text {
 
 }
 
-#contact-section {
-
+footer{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    margin-top: 60px;
+    background-color: rgba(54, 23, 23, 0.322) ;
 }
+    
